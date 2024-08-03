@@ -1,2 +1,2 @@
-# network-examples
+# Network examples
 Computer network concepts example
