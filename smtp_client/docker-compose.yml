@@ -1,0 +1,12 @@
+services:
+  mailhog:
+    image: mailhog/mailhog:latest
+    ports:
+      - 1025:1025
+      - 8025:8025
+    networks:
+      - app
+
+networks:
+  app:
+    driver: bridge
